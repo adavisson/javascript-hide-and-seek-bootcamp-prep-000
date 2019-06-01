@@ -21,8 +21,7 @@ function deepestChild(){
   
   function iterate(element){
     if(element.children){
-      element.shift();
-      iterate(element);
+      iterate(element.querySelector('div'));
     }else
     return element;
   }

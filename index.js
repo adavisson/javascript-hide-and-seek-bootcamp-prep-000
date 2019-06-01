@@ -7,3 +7,7 @@ function nestedTarget(){
   //var tar = nest.children;
   return document.getElementById('nested').querySelector('div div div div.target');
 }
+
+function increaseRankBy(n){
+  
+}

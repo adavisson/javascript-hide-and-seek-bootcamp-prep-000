@@ -20,7 +20,7 @@ function deepestChild(){
   var element = document.getElementById('grand-node');
   
   function iterate(element){
-    if(element.querySelector('div')){
+    if(element{
       iterate(element.querySelector('div'));
     }else
     return element;

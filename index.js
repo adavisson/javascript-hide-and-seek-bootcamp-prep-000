@@ -5,5 +5,5 @@ function getFirstSelector(selector){
 function nestedTarget(){
   var nest = document.getElementById('nested');
   var tar = nest.getElementsByClassName('target');
-  return tar.querySelector();
+  return document.querySelector(tar);
 }

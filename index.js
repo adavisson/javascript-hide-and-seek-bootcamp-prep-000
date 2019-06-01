@@ -23,7 +23,7 @@ function deepestChild(){
     if(element.childElementCount > 0){
       iterate(element.querySelector('div'));
     }else
-    return element;
+    return element.querySelector('div');
   }
   
   var child = iterate(element);

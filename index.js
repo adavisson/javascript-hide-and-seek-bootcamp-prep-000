@@ -21,9 +21,8 @@ function deepestChild(){
   
   function iterate(element){
     if(element.childElementCount > 0){
-      iterate(element.querySelector('div'));
+      return iterate(element.querySelector('div'));
     }else
-    console.log(element.querySelector('div'));
     return element.querySelector('div');
   }
   
